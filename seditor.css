@@ -1,0 +1,21 @@
+.operate_bar{
+    padding: 0px;
+    height: 27px;
+    border-bottom: 1px solid #ccc;
+}
+.editor_tool{list-style:none; cursor: pointer}
+.operate_bar li{ width:34px; height:26px; float:left; background-image:url(images/pic_operate_bar_1_1.png); cursor:pointer; list-style:none;}
+.item-focus, .item-press{ background-image:url(images/pic_operate_bar_2_1.png) }
+.item-press{border-top: 1px solid #999999;border-bottom: 1px solid #cccccc;}
+.operate_bar_fontname{ background-position:-34px 0;}
+.operate_bar_fontsize{ background-position:-68px 0;}
+.operate_bar_Bold{background-position:-102px 0;}
+.operate_bar_Italic{background-position:-136px 0;}
+.operate_bar_Underline{background-position:-170px 0;}
+.operate_bar_fontcolor{background-position:-204px 0;}
+.operate_bar_fontbgcolor{background-position:-238px 0;}
+.operate_bar_text_align{background-position:-272px 0;}
+.operate_bar_list{background-position:-306px 0;}
+.operate_bar_text_indent{background-position:-340px 0;}
+.operate_bar_un{background-position:-374px 0;}
+.operate_bar_link{background-position:-408px 0; border-right:1px solid #FFF;}

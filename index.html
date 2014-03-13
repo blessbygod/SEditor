@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <meta content="charset=utf-8;"  http-equiv="Content-Type" />
+        <script src="bower_components/jquery/jquery.js"></script>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/underscore/underscore.js"></script>
+        <link rel="stylesheet" href="seditor.css" />
+        <script src="seditor.js"></script>
+        <style>
+            .editor{
+                position: relative;
+                left: 200px;
+                top: 100px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <textarea class="editor" cols=100 rows=20 >
+        </textarea>
+        <script>
+            $('.editor').SEditor({});
+        </script>
+    </body>
+</html>
