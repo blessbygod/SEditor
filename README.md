@@ -2,12 +2,10 @@
 Senli的个人编辑器
 
 
-
-this.getContent = function(){
-    return this.doc.body.innerHTML;
-};
-
-//设置编辑器内容
-this.setContent = function(content){
-    this.doc.body.innerHTML = content; 
-};
+## 如何使用
+```
+1、 引入seditor.js, seditor.css
+2、 依赖jquery，let $editor =  $('.editor').SEditor({});
+3、 获取内容：$editor.getContent()
+    设置内容：$editor.setContent('html content'); 
+```
